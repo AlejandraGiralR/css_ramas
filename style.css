@@ -19,6 +19,30 @@ header{
     gap: 50px;
 }
 
+nav{
+background-color: rgba(255, 127, 80, 0.3);
+padding: 20px;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+nav a{
+    background-color: rgb(223, 216, 117);
+    color: rgb(117, 38, 190);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgb(53, 164, 228);
+    box-shadow: 3px 5px 6px 4px aqua;
+}
+
+nav a:hover{
+    background-color: rgb(157, 116, 194);
+    color:rgb(223, 216, 117);
+}
+
 body{
     background-image: url(Imagenes/fondo.jpg) ;
     background-repeat: no-repeat;
@@ -56,6 +80,24 @@ img{
 .dos{
     width: 45%;
 }
+
+.dos img{
+    width: 80%;
+}
+
+.tres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px double rgb(253, 245, 245) ;
+    width: 33%;
+    padding: 1rem;
+}
+
+.tres img{
+    width: 65%;
+}
+
 .galeria{
     display: flex;
     flex-wrap: wrap;
@@ -64,4 +106,18 @@ img{
     width: 200px;
     border-radius: 20px;
 
+}
+
+#diferente{
+    border-radius: 50%;
+    border: 1px solid rgb(15, 153, 38);
+}
+
+.imagen{
+    width: 60%;
+    margin: auto;
+}
+
+.imagen img:hover{
+    filter:sepia();
 }
