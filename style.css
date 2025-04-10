@@ -121,3 +121,41 @@ img{
 .imagen img:hover{
     filter:sepia();
 }
+
+.filtros{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.filtros #img7:hover{
+    border-radius: 20px;
+    filter: invert();
+
+}
+
+.filtros #img8:hover{
+    border-radius: 20px;
+    filter: blur(8px);
+
+}
+
+.filtros #img9:hover{
+    border-radius: 20px;
+    filter: brightness(65%);
+
+}
+
+.filtros #img10:hover{
+    border-radius: 20px;
+    filter: grayscale();
+
+}
+
+.filtros #img11:hover{
+    border-radius: 20px;
+    transform: scale(1.5)
+
+}
